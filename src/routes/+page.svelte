@@ -2,6 +2,7 @@
     import PasteConfig from '$lib/components/PasteConfig.svelte';
     import ImageLoader from '$lib/components/ImageLoader.svelte';
     import BezelSettings from '$lib/components/BezelSettings.svelte';
+    import PresetManager from '$lib/components/PresetManager.svelte';
     import Toolbar from '$lib/components/Toolbar.svelte';
     import OverlayCanvas from '$lib/components/OverlayCanvas.svelte';
     import ExportDialog from '$lib/components/ExportDialog.svelte';
@@ -16,6 +17,8 @@
         <ImageLoader />
         <h2>Settings</h2>
         <BezelSettings />
+        <h2>Presets</h2>
+        <PresetManager />
     </div>
     <div class="right">
         <Toolbar>
