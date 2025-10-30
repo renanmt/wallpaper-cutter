@@ -8,6 +8,31 @@
   <link rel="icon" href={favicon} />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Wallpaper-Cutter</title>
+  <meta
+    name="description"
+    content="A tool for cutting wallpapers into individual monitor-sized pieces. Perfect for multi-monitor setups where you want a seamless wallpaper experience across your displays, especially useful for KDE Plasma Wayland users."
+  />
+  <meta
+    name="keywords"
+    content="wallpaper, cutter, multi-monitor, kde, plasma, wayland"
+  />
+  <meta name="author" content="Renan Tonheiro" />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="google" content="notranslate" />
+  <meta name="og:title" content="Wallpaper-Cutter" />
+  <meta
+    name="og:description"
+    content="A tool for cutting wallpapers into individual monitor-sized pieces. Perfect for multi-monitor setups where you want a seamless wallpaper experience across your displays, especially useful for KDE Plasma Wayland users."
+  />
+  <meta
+    name="og:image"
+    content="https://wallpaper-cutter.pages.dev/favicon.svg"
+  />
+  <meta name="og:url" content="https://wallpaper-cutter.pages.dev/" />
+  <meta name="og:type" content="website" />
+  <meta name="og:locale" content="en_US" />
+  <meta name="og:site_name" content="Wallpaper-Cutter" />  
 </svelte:head>
 
 <div class="app-root">
